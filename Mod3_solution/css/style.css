@@ -3,9 +3,12 @@
   box-sizing: border-box;
 }
 
+.navbar{
+  width: 100%;
+}
+
 .container{
   margin:0;
-  width:100%;
   padding: 0;
 }
 
@@ -58,6 +61,32 @@ li{
 .container > .navbar-header{  
   margin-right: 0;
   margin-left: 0;
+}
+
+#main-content{
+  background-color: #ffb3b3;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  height: 1000px;
+  line-height: 1.6;
+  overflow: auto;
+}
+
+#content-title{
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin:0;
+}
+
+#long-text{
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 10px;  
 }
 
 
